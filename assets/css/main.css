@@ -7,6 +7,10 @@
     --pink : #e5345b;
 }
 
+.text-primary{
+    color: var(--pink) !important;
+}
+
 body
 {
     font-family: var(--sm-font);
@@ -46,7 +50,7 @@ body
 .btn:not(.nav-btns button):hover{
     background-color: var(--pink);
     border: 1px solid var(--pink);
-    color: #fff;
+    color: #fff !important;
 }
 
 
@@ -59,4 +63,36 @@ body
 .carousel-item h1 {
     font-size: 60px;
     font-family: var(--lg-font);
+}
+
+/* title */
+.title{
+    font-size: 30px;
+}
+
+.title h2::before{
+    position: absolute;
+    content: "";
+    width: 4px;
+    height: 50px;
+    background-color: var(--pink);
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* collection */
+
+.active-filter-btn{
+    background-color: var(--pink) !important;
+    color: #fff !important;
+    border: var(--pink) !important;
+}
+
+.collection-img span {
+    top: 20px;
+    right: 30px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
 }
