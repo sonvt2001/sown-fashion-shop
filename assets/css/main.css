@@ -96,3 +96,21 @@ body
     height: 46px;
     border-radius: 50%;
 }
+
+/* special */
+.special-img span{
+    top: 20px;
+    right: 30px;
+}
+
+.special-list btn{
+    padding: 8px 20px !important;
+}
+
+.special-img img {
+    transition: all 0.3s ease;
+}
+
+.special-img img:hover{
+    transform: scale(1.2);
+}
